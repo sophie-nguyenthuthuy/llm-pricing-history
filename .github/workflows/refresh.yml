@@ -1,6 +1,11 @@
 name: refresh
 
+# Daily dataset refresh; also runs once on push to this file so the first
+# end-to-end run happens right after setup.
 on:
+  push:
+    paths:
+      - ".github/workflows/refresh.yml"
   schedule:
     - cron: "17 3 * * *"   # daily 03:17 UTC (10:17 Hanoi)
   workflow_dispatch:
