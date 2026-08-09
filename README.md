@@ -1,5 +1,7 @@
 # llm-pricing-history
 
+[![refresh](https://github.com/sophie-nguyenthuthuy/llm-pricing-history/actions/workflows/refresh.yml/badge.svg)](https://github.com/sophie-nguyenthuthuy/llm-pricing-history/actions/workflows/refresh.yml)
+
 A public, machine-readable **history of LLM API pricing**, refreshed daily by CI.
 
 The product of this repo is two CSV files. A GitHub Action re-fetches the
