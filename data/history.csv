@@ -1,1 +1,4 @@
 date,event,source,provider,model,field,old,new
+2026-08-09,changed,openrouter,qwen,qwen/qwen3.5-397b-a17b,input_usd_per_mtok,0.5,0.39
+2026-08-09,changed,openrouter,qwen,qwen/qwen3.5-397b-a17b,output_usd_per_mtok,3.6,2.34
+2026-08-09,changed,openrouter,qwen,qwen/qwen3.5-397b-a17b,cache_read_usd_per_mtok,0.3,

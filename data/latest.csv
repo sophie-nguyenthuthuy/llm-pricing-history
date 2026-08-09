@@ -2508,7 +2508,7 @@ openrouter,qwen,qwen/qwen3-vl-8b-thinking,0.18,2.1,,131072
 openrouter,qwen,qwen/qwen3.5-122b-a10b,0.29,2.4,,262144
 openrouter,qwen,qwen/qwen3.5-27b,0.195,1.56,,262144
 openrouter,qwen,qwen/qwen3.5-35b-a3b,0.14,1,,262144
-openrouter,qwen,qwen/qwen3.5-397b-a17b,0.5,3.6,0.3,262144
+openrouter,qwen,qwen/qwen3.5-397b-a17b,0.39,2.34,,262144
 openrouter,qwen,qwen/qwen3.5-9b,0.1,0.15,,262144
 openrouter,qwen,qwen/qwen3.5-flash-02-23,0.065,0.26,,1000000
 openrouter,qwen,qwen/qwen3.5-plus-02-15,0.26,1.56,,1000000
