@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "llm-pricing-history: a daily-refreshed history of LLM API pricing"
+type: dataset
+authors:
+  - family-names: "Nguyễn"
+    given-names: "Thu Thuỷ"
+repository-code: "https://github.com/sophie-nguyenthuthuy/llm-pricing-history"
+license: CC-BY-4.0
+date-released: "2026-08-09"
