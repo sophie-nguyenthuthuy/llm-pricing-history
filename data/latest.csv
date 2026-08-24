@@ -2341,10 +2341,10 @@ openrouter,deepseek,deepseek/deepseek-r1-distill-llama-70b,0.8,0.8,,8192
 openrouter,deepseek,deepseek/deepseek-v3.1-terminus,0.27,1,0.135,163840
 openrouter,deepseek,deepseek/deepseek-v3.2,0.26,0.38,0.13,163840
 openrouter,deepseek,deepseek/deepseek-v3.2-exp,0.27,0.41,,163840
-openrouter,deepseek,deepseek/deepseek-v4-flash,0.05306,0.10612,0.010612,1048576
-openrouter,deepseek,deepseek/deepseek-v4-flash-0731,0.08,0.18,0.016,1310720
+openrouter,deepseek,deepseek/deepseek-v4-flash,0.0574,0.1148,0.01148,1048576
+openrouter,deepseek,deepseek/deepseek-v4-flash-0731,0.14,0.28,0.028,1310720
 openrouter,deepseek,deepseek/deepseek-v4-flash-vision-exp,0.22,0.66,0.007,1048576
-openrouter,deepseek,deepseek/deepseek-v4-pro,0.413772,0.827544,0.034481,1048576
+openrouter,deepseek,deepseek/deepseek-v4-pro,0.526176,1.052352,0.043848,1048576
 openrouter,deepseek,deepseek/deepseek-v4-pro-0813,1.122,3.366,0.0374,1048576
 openrouter,dots-studio,dots-studio/dots-3-note-preview:free,0,0,,512000
 openrouter,google,google/gemini-2.5-flash,0.3,2.5,0.03,1048576
@@ -2422,7 +2422,7 @@ openrouter,minimax,minimax/minimax-m2,0.255,1.02,,204800
 openrouter,minimax,minimax/minimax-m2-her,0.3,1.2,0.03,65536
 openrouter,minimax,minimax/minimax-m2.1,0.3,1.2,0.03,204800
 openrouter,minimax,minimax/minimax-m2.5,0.27,1.08,0.027,204800
-openrouter,minimax,minimax/minimax-m2.7,0.3,1.2,0.06,204800
+openrouter,minimax,minimax/minimax-m2.7,0.24,0.96,0.048,204800
 openrouter,minimax,minimax/minimax-m3,0.3,1.2,0.06,1048576
 openrouter,minimax,minimax/minimax-m3:batch,0.3,1.2,0.06,524288
 openrouter,mistralai,mistralai/codestral-2508,0.3,0.9,0.03,256000
@@ -2617,12 +2617,12 @@ openrouter,qwen,qwen/qwen3-vl-8b-thinking,0.18,2.1,,131072
 openrouter,qwen,qwen/qwen3.5-122b-a10b,0.26,2.08,,262144
 openrouter,qwen,qwen/qwen3.5-27b,0.195,1.56,,262144
 openrouter,qwen,qwen/qwen3.5-35b-a3b,0.25,1.25,0.25,262144
-openrouter,qwen,qwen/qwen3.5-397b-a17b,0.39,2.34,,262144
+openrouter,qwen,qwen/qwen3.5-397b-a17b,0.5,3.6,0.3,262144
 openrouter,qwen,qwen/qwen3.5-9b,0.1,0.15,,262144
 openrouter,qwen,qwen/qwen3.5-flash-02-23,0.065,0.26,,1000000
 openrouter,qwen,qwen/qwen3.5-plus-02-15,0.26,1.56,,1000000
 openrouter,qwen,qwen/qwen3.5-plus-20260420,0.3,1.8,,1000000
-openrouter,qwen,qwen/qwen3.6-27b,0.6,3.6,0.12,262144
+openrouter,qwen,qwen/qwen3.6-27b,0.32,3.2,,262144
 openrouter,qwen,qwen/qwen3.6-35b-a3b,0.14,1,0.05,262144
 openrouter,qwen,qwen/qwen3.6-flash,0.1875,1.125,,1000000
 openrouter,qwen,qwen/qwen3.6-max-preview,1.027,6.162,,262144
@@ -2691,7 +2691,7 @@ openrouter,~anthropic,~anthropic/claude-fable-latest,10,50,1,1000000
 openrouter,~anthropic,~anthropic/claude-haiku-latest,1,5,0.1,200000
 openrouter,~anthropic,~anthropic/claude-opus-latest,5,25,0.5,1000000
 openrouter,~anthropic,~anthropic/claude-sonnet-latest,2,10,0.2,1000000
-openrouter,~deepseek,~deepseek/deepseek-v4-flash-latest,0.055,0.14,0.01,1310720
+openrouter,~deepseek,~deepseek/deepseek-v4-flash-latest,0.04,0.08,0.008,1310720
 openrouter,~google,~google/gemini-flash-latest,0.375,1.875,0.0375,1048576
 openrouter,~google,~google/gemini-pro-latest,2,12,0.2,1048576
 openrouter,~moonshotai,~moonshotai/kimi-latest,2.6,13,0.29,1048576
