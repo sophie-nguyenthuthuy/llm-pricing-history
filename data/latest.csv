@@ -2342,7 +2342,7 @@ openrouter,deepseek,deepseek/deepseek-v3.1-terminus,0.27,1,0.135,163840
 openrouter,deepseek,deepseek/deepseek-v3.2,0.26,0.38,0.13,163840
 openrouter,deepseek,deepseek/deepseek-v3.2-exp,0.27,0.41,,163840
 openrouter,deepseek,deepseek/deepseek-v4-flash,0.088606,0.177212,0.0177212,1048576
-openrouter,deepseek,deepseek/deepseek-v4-flash-0731,0.14,0.28,0.028,1310720
+openrouter,deepseek,deepseek/deepseek-v4-flash-0731,0.04,0.08,0.008,1310720
 openrouter,deepseek,deepseek/deepseek-v4-flash-vision-exp,0.44,1.32,0.014,1048576
 openrouter,deepseek,deepseek/deepseek-v4-pro,0.790308,1.580616,0.065859,1048576
 openrouter,deepseek,deepseek/deepseek-v4-pro-0813,1.122,3.366,0.0374,1048576
@@ -2381,10 +2381,9 @@ openrouter,google,google/gemma-2-27b-it,0.65,0.65,,8192
 openrouter,google,google/gemma-3-12b-it,0.05,0.15,,131072
 openrouter,google,google/gemma-3-27b-it,0.08,0.45,0.04,262144
 openrouter,google,google/gemma-3-4b-it,0.05,0.1,,131072
-openrouter,google,google/gemma-3n-e4b-it,0.06,0.12,,32768
 openrouter,google,google/gemma-4-26b-a4b-it,0.07,0.34,,262144
 openrouter,google,google/gemma-4-26b-a4b-it:free,0,0,,262144
-openrouter,google,google/gemma-4-31b-it,0.1,0.34,0.1,262144
+openrouter,google,google/gemma-4-31b-it,0.09,0.34,0.05,262144
 openrouter,google,google/gemma-4-31b-it:free,0,0,,262144
 openrouter,google,google/lyria-3-clip-preview,0,0,,1048576
 openrouter,google,google/lyria-3-pro-preview,0,0,,1048576
@@ -2407,10 +2406,10 @@ openrouter,meta-llama,meta-llama/llama-3.1-70b-instruct,0.4,0.4,,131072
 openrouter,meta-llama,meta-llama/llama-3.1-8b-instruct,0.05,0.08,0.025,131072
 openrouter,meta-llama,meta-llama/llama-3.2-1b-instruct,0.027,0.201,,60000
 openrouter,meta-llama,meta-llama/llama-3.2-3b-instruct,0.05,0.33,,131072
-openrouter,meta-llama,meta-llama/llama-3.3-70b-instruct,0.1,0.32,,131072
+openrouter,meta-llama,meta-llama/llama-3.3-70b-instruct,0.71,0.71,0.71,131072
 openrouter,meta-llama,meta-llama/llama-4-maverick,0.2,0.8,,1048576
-openrouter,meta-llama,meta-llama/llama-4-scout,0.1,0.3,,1310720
-openrouter,meta-llama,meta-llama/llama-guard-4-12b,0.18,0.18,,1048576
+openrouter,meta-llama,meta-llama/llama-4-scout,0.11,0.34,0.055,1310720
+openrouter,meta-llama,meta-llama/llama-guard-4-12b,0.18,0.18,,163840
 openrouter,microsoft,microsoft/phi-4,0.07,0.14,,16384
 openrouter,microsoft,microsoft/wizardlm-2-8x22b,0.62,0.62,,65535
 openrouter,minimax,minimax/minimax-01,0.2,1.1,,1000192
@@ -2423,6 +2422,7 @@ openrouter,minimax,minimax/minimax-m2.7,0.3,1.2,0.06,204800
 openrouter,minimax,minimax/minimax-m2.7:free,0,0,,196608
 openrouter,minimax,minimax/minimax-m3,0.3,1.2,0.06,1048576
 openrouter,minimax,minimax/minimax-m3:batch,0.3,1.2,0.06,524288
+openrouter,minimax,minimax/minimax-m3:free,0,0,,1048576
 openrouter,mistralai,mistralai/codestral-2508,0.3,0.9,0.03,256000
 openrouter,mistralai,mistralai/devstral-2512,0.44,2.2,0.044,262144
 openrouter,mistralai,mistralai/ministral-14b-2512,0.2,0.2,0.02,262144
@@ -2583,8 +2583,7 @@ openrouter,qwen,qwen/qwen-2.5-7b-instruct,0.1,0.2,,32768
 openrouter,qwen,qwen/qwen-2.5-coder-32b-instruct,0.66,1,,32768
 openrouter,qwen,qwen/qwen-plus,0.26,0.78,0.052,1000000
 openrouter,qwen,qwen/qwen-plus-2025-07-28,0.26,0.78,,1000000
-openrouter,qwen,qwen/qwen-plus-2025-07-28:thinking,0.26,0.78,,1000000
-openrouter,qwen,qwen/qwen2.5-vl-72b-instruct,0.8,1,0.4,128000
+openrouter,qwen,qwen/qwen2.5-vl-72b-instruct,0.25,0.75,,128000
 openrouter,qwen,qwen/qwen3-14b,0.12,0.24,,131072
 openrouter,qwen,qwen/qwen3-235b-a22b,0.455,1.82,,131072
 openrouter,qwen,qwen/qwen3-235b-a22b-2507,0.09,0.55,,262144
@@ -2613,7 +2612,7 @@ openrouter,qwen,qwen/qwen3-vl-8b-thinking,0.18,2.1,,131072
 openrouter,qwen,qwen/qwen3.5-122b-a10b,0.26,2.08,,262144
 openrouter,qwen,qwen/qwen3.5-27b,0.195,1.56,,262144
 openrouter,qwen,qwen/qwen3.5-35b-a3b,0.25,1.25,0.25,262144
-openrouter,qwen,qwen/qwen3.5-397b-a17b,0.5,3.6,0.3,262144
+openrouter,qwen,qwen/qwen3.5-397b-a17b,0.39,2.34,,262144
 openrouter,qwen,qwen/qwen3.5-9b,0.1,0.15,,262144
 openrouter,qwen,qwen/qwen3.5-flash-02-23,0.065,0.26,,1000000
 openrouter,qwen,qwen/qwen3.5-plus-02-15,0.26,1.56,,1000000
@@ -2627,7 +2626,7 @@ openrouter,qwen,qwen/qwen3.7-flash,0.03,0.13,0.006,1000000
 openrouter,qwen,qwen/qwen3.7-max,1.475,4.425,0.295,1000000
 openrouter,qwen,qwen/qwen3.7-plus,0.32,1.28,0.064,1000000
 openrouter,qwen,qwen/qwen3.8-2.4t-a95b,2,6,0.25,1048576
-openrouter,qwen,qwen/qwen3.8-27b,0.4,3,0.05,1000000
+openrouter,qwen,qwen/qwen3.8-27b,0.425,2.55,0.085,1000000
 openrouter,qwen,qwen/qwen3.8-max,2,6,0.25,1000000
 openrouter,rekaai,rekaai/reka-edge,0.1,0.1,,16384
 openrouter,rekaai,rekaai/reka-flash-3,0.1,0.2,,65536
@@ -2677,7 +2676,7 @@ openrouter,z-ai,z-ai/glm-4.7,0.4,1.75,0.08,204800
 openrouter,z-ai,z-ai/glm-4.7-flash,0.06,0.4,0.01,202752
 openrouter,z-ai,z-ai/glm-5,0.6,1.92,0.12,204800
 openrouter,z-ai,z-ai/glm-5-turbo,1.2,4,0.24,202752
-openrouter,z-ai,z-ai/glm-5.1,0.966,3.036,0.1794,204800
+openrouter,z-ai,z-ai/glm-5.1,1.26,3.96,0.234,204800
 openrouter,z-ai,z-ai/glm-5.2,1.19,3.74,0.221,1048576
 openrouter,z-ai,z-ai/glm-5.2:batch,1.4,4.4,0.26,1048575
 openrouter,z-ai,z-ai/glm-5.2:free,0,0,,256000
@@ -2687,10 +2686,10 @@ openrouter,~anthropic,~anthropic/claude-fable-latest,10,50,1,1000000
 openrouter,~anthropic,~anthropic/claude-haiku-latest,1,5,0.1,200000
 openrouter,~anthropic,~anthropic/claude-opus-latest,5,25,0.5,1000000
 openrouter,~anthropic,~anthropic/claude-sonnet-latest,2,10,0.2,1000000
-openrouter,~deepseek,~deepseek/deepseek-v4-flash-latest,0.035,0.075,0.008,1310720
+openrouter,~deepseek,~deepseek/deepseek-v4-flash-latest,0.03,0.075,0.007,1310720
 openrouter,~google,~google/gemini-flash-latest,0.375,1.875,0.0375,1048576
 openrouter,~google,~google/gemini-pro-latest,2,12,0.2,1048576
-openrouter,~moonshotai,~moonshotai/kimi-latest,2.8,14,0.29,1048576
+openrouter,~moonshotai,~moonshotai/kimi-latest,2.55,12.75,0.25599999,1048576
 openrouter,~openai,~openai/gpt-latest,2,10,0.2,1050000
 openrouter,~openai,~openai/gpt-mini-latest,0.75,4.5,0.075,400000
 openrouter,~x-ai,~x-ai/grok-latest,2,6,0.5,500000
