@@ -7363,3 +7363,12 @@ date,event,source,provider,model,field,old,new
 2026-11-01,changed,openrouter,~z-ai,~z-ai/glm-flash-latest,input_usd_per_mtok,0.0163,0.0285
 2026-11-01,changed,openrouter,~z-ai,~z-ai/glm-flash-latest,output_usd_per_mtok,0.1479,0.0923
 2026-11-01,changed,openrouter,~z-ai,~z-ai/glm-flash-latest,cache_read_usd_per_mtok,0.0163,0.0285
+2026-11-02,changed,openrouter,google,google/gemma-4-26b-a4b-it,input_usd_per_mtok,0.0675,0.1
+2026-11-02,changed,openrouter,google,google/gemma-4-26b-a4b-it,output_usd_per_mtok,0.225,0.3
+2026-11-02,changed,openrouter,google,google/gemma-4-26b-a4b-it,cache_read_usd_per_mtok,0.0375,0.05
+2026-11-02,changed,openrouter,meta-llama,meta-llama/llama-3.2-3b-instruct,input_usd_per_mtok,0.05,0.0509
+2026-11-02,changed,openrouter,meta-llama,meta-llama/llama-3.2-3b-instruct,output_usd_per_mtok,0.33,0.335
+2026-11-02,changed,openrouter,openai,openai/gpt-oss-120b,input_usd_per_mtok,0.019,0.15
+2026-11-02,changed,openrouter,openai,openai/gpt-oss-120b,output_usd_per_mtok,0.072,0.6
+2026-11-02,changed,openrouter,openai,openai/gpt-oss-120b,cache_read_usd_per_mtok,,0.075
+2026-11-02,changed,openrouter,~deepseek,~deepseek/deepseek-v4-flash-latest,input_usd_per_mtok,0.0434,0.059
