@@ -4411,9 +4411,9 @@ openrouter,deepseek,deepseek/deepseek-v3.2-exp,0.27,0.41,,163840
 openrouter,deepseek,deepseek/deepseek-v4-flash,0.09,0.18,0.018,1048576
 openrouter,deepseek,deepseek/deepseek-v4-flash-0731,0.047,0.3,0.035,1048576
 openrouter,deepseek,deepseek/deepseek-v4-flash-0731:batch,0.048,0.144,0.012,1048576
-openrouter,deepseek,deepseek/deepseek-v4-flash-vision-exp,0.44,1.32,0.028,1048576
-openrouter,deepseek,deepseek/deepseek-v4-pro,0.87725,1.5082,0.2,1048576
-openrouter,deepseek,deepseek/deepseek-v4-pro-0813,0.111,4.44,0.097,1048576
+openrouter,deepseek,deepseek/deepseek-v4-flash-vision-exp,0.2156,0.6468,0.00686,1048576
+openrouter,deepseek,deepseek/deepseek-v4-pro,0.888188,1.5082,0.2,1048576
+openrouter,deepseek,deepseek/deepseek-v4-pro-0813,0.0999,5,0.0999,1048576
 openrouter,deepseek,deepseek/deepseek-v4.1-flash,0.14,0.42,0.0042,1048576
 openrouter,deepseek,deepseek/deepseek-v4.1-flash-1017,0.15,0.6,0.003,1048576
 openrouter,deepseek,deepseek/deepseek-v4.1-flash-1017:batch,0.035,0.149,0.0029,1048576
@@ -4461,8 +4461,8 @@ openrouter,google,google/gemini-omni-1.1-flash,1.5,9,,131072
 openrouter,google,google/gemini-omni-1.2-flash,1.5,9,,131072
 openrouter,google,google/gemma-2-27b-it,0.65,0.65,,8192
 openrouter,google,google/gemma-3-12b-it,0.05,0.15,,131072
-openrouter,google,google/gemma-3-27b-it,0.08,0.45,0.04,131072
-openrouter,google,google/gemma-3-4b-it,0.04,0.05,0.02,131072
+openrouter,google,google/gemma-3-27b-it,0.08,0.16,,131072
+openrouter,google,google/gemma-3-4b-it,0.05,0.1,,131072
 openrouter,google,google/gemma-4-26b-a4b-it,0.09,0.3,0.05,262144
 openrouter,google,google/gemma-4-26b-a4b-it:free,0,0,,262144
 openrouter,google,google/gemma-4-31b-it,0.2,0.4,,262144
@@ -4475,7 +4475,8 @@ openrouter,inclusionai,inclusionai/ling-3.0-flash,0.021,0.063,0.0042,262144
 openrouter,inclusionai,inclusionai/ling-3.0-flash-vl,0.06,0.18,0.012,131072
 openrouter,inclusionai,inclusionai/ling-3.0-tiny,0.015,0.045,0.003,262144
 openrouter,inclusionai,inclusionai/ling-3.1-flash,0.075,0.225,0.015,1048576
-openrouter,inclusionai,inclusionai/ling-3.2-flash:free,0,0,,1048576
+openrouter,inclusionai,inclusionai/ling-3.2-flash,0.3,0.9,0.06,1048576
+openrouter,inclusionai,inclusionai/lingsante-3.1-air-vl,0.06,0.18,0.012,131072
 openrouter,inference-net,inference-net/schematron-v2-small,0.05,0.23,0.05,128000
 openrouter,inference-net,inference-net/schematron-v2-turbo,0.03,0.15,0.03,128000
 openrouter,kt,kt/midm-k-3.0-pro,0.2,0.8,0.04,261795
@@ -4484,7 +4485,7 @@ openrouter,liquid,liquid/lfm-3-1.7b,0.08,0.2,0.02,262144
 openrouter,liquid,liquid/lfm-3-1.7b:free,0,0,,262144
 openrouter,mancer,mancer/weaver,0.3,0.5,0.3,8000
 openrouter,meta,meta/muse-ember,0.1,0.5,0.004,1048576
-openrouter,meta,meta/muse-glimmer-30b,0.35,1.5,0.04,131072
+openrouter,meta,meta/muse-glimmer-30b,0.3,1.2,0.04,131072
 openrouter,meta,meta/muse-glimmer-30b:batch,0.24,0.96,0.032,131072
 openrouter,meta,meta/muse-spark-1.1,1.25,4.25,0.15,1048576
 openrouter,meta,meta/muse-spark-1.2,1.25,4.25,0.15,1048576
@@ -4496,7 +4497,7 @@ openrouter,meta,meta/muse-wonder,4,20,0.2,1048576
 openrouter,meta-llama,meta-llama/llama-3.1-70b-instruct,0.72,0.72,,131072
 openrouter,meta-llama,meta-llama/llama-3.1-8b-instruct,0.05,0.08,0.025,131072
 openrouter,meta-llama,meta-llama/llama-3.2-3b-instruct,0.05,0.33,,131072
-openrouter,meta-llama,meta-llama/llama-3.3-70b-instruct,0.71,0.71,0.71,131072
+openrouter,meta-llama,meta-llama/llama-3.3-70b-instruct,0.59,0.79,0.295,131072
 openrouter,meta-llama,meta-llama/llama-4-maverick,0.35,1,0.17,524288
 openrouter,meta-llama,meta-llama/llama-4-scout,0.1,0.3,,1310720
 openrouter,meta-llama,meta-llama/llama-guard-4-12b,0.18,0.18,,163840
@@ -4532,7 +4533,9 @@ openrouter,mistralai,mistralai/pixtral-large-2502,2,6,,128000
 openrouter,mistralai,mistralai/voxtral-small-24b-2507,0.1,0.3,0.01,32768
 openrouter,moondream,moondream/moondream3-preview,0.3,2.5,,32000
 openrouter,moondream,moondream/moondream3.1-9b-a2b,0.3,2.5,,32000
-openrouter,moonshotai,moonshotai/kimi-k2.5,0.5,2.5,0.15,262144
+openrouter,moonshotai,moonshotai/kimi-k2,0.57,2.3,,131072
+openrouter,moonshotai,moonshotai/kimi-k2-0905,0.6,2.5,,262144
+openrouter,moonshotai,moonshotai/kimi-k2.5,0.6,3,,262144
 openrouter,moonshotai,moonshotai/kimi-k2.6,0.65,3.41,0.15,262144
 openrouter,moonshotai,moonshotai/kimi-k2.7-code,0.6,3,0.12,262144
 openrouter,moonshotai,moonshotai/kimi-k3,0.192,16,0.182,1048576
@@ -4717,7 +4720,7 @@ openrouter,qwen,qwen/qwen3.7-flash,0.03,0.13,0.006,1000000
 openrouter,qwen,qwen/qwen3.7-max,1.475,4.425,0.295,1000000
 openrouter,qwen,qwen/qwen3.7-plus,0.32,1.28,0.064,1000000
 openrouter,qwen,qwen/qwen3.7-plus:batch,0.23,0.92,,262144
-openrouter,qwen,qwen/qwen3.8-2.4t-a95b,2,6,0.25,1048576
+openrouter,qwen,qwen/qwen3.8-2.4t-a95b,2,6,0.25,1000000
 openrouter,qwen,qwen/qwen3.8-27b,0.06,1.96,0.059,1024000
 openrouter,qwen,qwen/qwen3.8-27b:batch,0.16,2,0.04,262144
 openrouter,qwen,qwen/qwen3.8-flash,0.15,0.47,0.016,1000000
@@ -4755,7 +4758,7 @@ openrouter,thedrummer,thedrummer/cydonia-24b-v4.1,0.3,0.5,0.15,131072
 openrouter,thedrummer,thedrummer/skyfall-36b-v2,0.55,0.8,0.25,32768
 openrouter,thedrummer,thedrummer/unslopnemo-12b,0.4,0.4,,1024000
 openrouter,thinkingmachines,thinkingmachines/inkling,1,4.05,0.17,1048576
-openrouter,thinkingmachines,thinkingmachines/inkling-2-mini,0.075,0.3,0.015,1048576
+openrouter,thinkingmachines,thinkingmachines/inkling-2-mini,0.06,0.24,0.012,1048576
 openrouter,thinkingmachines,thinkingmachines/inkling-2-small,0.3,1,0.03,1048576
 openrouter,thinkingmachines,thinkingmachines/inkling-small,0.45,1.2,0.1,524288
 openrouter,thinkingmachines,thinkingmachines/inkling-small:batch,0.36,0.96,0.08,524288
@@ -4783,7 +4786,7 @@ openrouter,xiaomi,xiaomi/mimo-v2.6-pro-ultraspeed,4.35,8.7,0.036,1048576
 openrouter,z-ai,z-ai/glm-4.5,0.6,2.2,0.11,131072
 openrouter,z-ai,z-ai/glm-4.5-air,0.2,1.1,0.03,131072
 openrouter,z-ai,z-ai/glm-4.5v,0.6,1.8,0.11,65536
-openrouter,z-ai,z-ai/glm-4.6,0.5,2,0.1,204800
+openrouter,z-ai,z-ai/glm-4.6,0.5,2,0.1,202752
 openrouter,z-ai,z-ai/glm-4.6v,0.3,0.9,0.05,131072
 openrouter,z-ai,z-ai/glm-4.7,0.6,2.2,0.11,204800
 openrouter,z-ai,z-ai/glm-4.7-flash,0.0605,0.4,,131072
@@ -4805,7 +4808,7 @@ openrouter,~anthropic,~anthropic/claude-haiku-latest,0.1,0.5,0.01,1000000
 openrouter,~anthropic,~anthropic/claude-opus-latest,4,20,0.2,1000000
 openrouter,~anthropic,~anthropic/claude-sonnet-latest,2,10,0.1,1000000
 openrouter,~deepseek,~deepseek/deepseek-flash-latest,0.036,0.5,0.01,1048576
-openrouter,~deepseek,~deepseek/deepseek-pro-latest,0.111,4.44,0.097,1048576
+openrouter,~deepseek,~deepseek/deepseek-pro-latest,0.0999,5,0.0999,1048576
 openrouter,~deepseek,~deepseek/deepseek-v4-flash-latest,0.047,0.3,0.035,1048576
 openrouter,~google,~google/gemini-flash-latest,1.5,7.5,0.075,1048576
 openrouter,~google,~google/gemini-pro-latest,2,10,0.1,1048576
